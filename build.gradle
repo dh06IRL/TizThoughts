@@ -1,0 +1,47 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        flatDir {
+            dirs 'libs'
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:+'
+    }
+}
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+
+    compileSdkVersion 19
+    buildToolsVersion "19.0.0"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 19
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+    productFlavors {
+        defaultFlavor {
+            proguardFile 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:+'
+    compile files('src/main/libs/Simple-Rss2-Android.jar')
+    compile files('libs/Simple-Rss2-Android.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/com.haarman.listviewanimations-2.5.2.jar')
+    compile files('libs/oak-library-1.1.9.jar')
+}

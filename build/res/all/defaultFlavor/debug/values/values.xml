@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black_overlay">#8000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_overlay">#26FFFFFF</color>
+
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Tiz Thoughts</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <style name="ActionBar.Solid.Tiz" parent="@android:style/Widget.Holo.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_tiz</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_tiz</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_tiz</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Tiz</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Tiz" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_tiz</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Tiz</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Tiz" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_tiz</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Tiz" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_tiz</item>
+    </style>
+
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="DropDownListView.Tiz" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_tiz</item>
+    </style>
+
+    <style name="DropDownNav.Tiz" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_tiz</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_tiz</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_tiz</item>
+    </style>
+
+    <style name="PopupMenu.Tiz" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_tiz</item>
+    </style>
+
+    <style name="ProgressBar.Tiz" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_tiz</item>
+    </style>
+
+    <style name="Theme.Tiz" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_tiz</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Tiz</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Tiz</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Tiz</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Tiz</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Transparent.Tiz</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_tiz</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_tiz</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Tiz</item>
+    </style>
+
+    <style name="Theme.Tiz.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Tiz</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Tiz</item>
+    </style>
+
+</resources>

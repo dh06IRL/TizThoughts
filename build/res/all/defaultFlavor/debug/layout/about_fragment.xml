@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/about_header"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textSize="30sp"
+        android:text="Tiz Thoughts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/about_katelyn"
+        android:layout_below="@+id/about_header"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:text="Writer: Katelyn Tisdel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@+id/about_katelyn"
+        android:id="@+id/about_david"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:text="Maintainer: David Hodge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/about_build"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="v1.0.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

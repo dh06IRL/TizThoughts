@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/david.hodge/Documents/ProjectX/ProjectX/Tiz/src/main/assets" >
+            <file
+                name="fonts/readoutcondenseditalic.ttf"
+                path="/Users/david.hodge/Documents/ProjectX/ProjectX/Tiz/src/main/assets/fonts/readoutcondenseditalic.ttf" />
+            <file
+                name="fonts/Roboto-Bold.ttf"
+                path="/Users/david.hodge/Documents/ProjectX/ProjectX/Tiz/src/main/assets/fonts/Roboto-Bold.ttf" />
+            <file
+                name="fonts/Roboto-Light.ttf"
+                path="/Users/david.hodge/Documents/ProjectX/ProjectX/Tiz/src/main/assets/fonts/Roboto-Light.ttf" />
+            <file
+                name="fonts/Roboto-Thin.ttf"
+                path="/Users/david.hodge/Documents/ProjectX/ProjectX/Tiz/src/main/assets/fonts/Roboto-Thin.ttf" />
+            <file
+                name="fonts/Roboto.ttf"
+                path="/Users/david.hodge/Documents/ProjectX/ProjectX/Tiz/src/main/assets/fonts/Roboto.ttf" />
+        </source>
+    </dataSet>
+    <dataSet config="defaultFlavor" >
+        <source path="/Users/david.hodge/Documents/ProjectX/ProjectX/Tiz/src/defaultFlavor/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/david.hodge/Documents/ProjectX/ProjectX/Tiz/src/debug/assets" />
+    </dataSet>
+    <dataSet config="defaultFlavorDebug" >
+        <source path="/Users/david.hodge/Documents/ProjectX/ProjectX/Tiz/src/defaultFlavorDebug/assets" />
+    </dataSet>
+
+</merger>
